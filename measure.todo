@@ -1,0 +1,53 @@
+Brief {
+   > Measure 2D shapes using depth measuring.
+   > Output shape in CAD-compatible format
+}
+
+Choices {
+   ? Output format
+      > svg
+      > dxf
+   ? Language
+      > Javascript
+         > Easy svg and display
+         > Portable
+      > Python
+         > Easy svg output but no easy display
+         > semi-portable
+      > C++
+         > familiar
+         > Easy svg output
+         > Not portable
+   > Controls
+      > How to allow revisions when many sets?
+         > clear
+         > remove set <drop down>
+}
+
+Documentation {
+   > Pitfalls
+      > angles far from perpendicular will result in innacuracies.
+}
+
+Tasks {
+   > Protractor/pedastal
+      > Vernier scale
+         > Duplicate on opposite side of inner disc in case rangefinder
+           obscures one copy.
+         > Duplicate outer markings to every degree, otherwise the scale
+           will only work every 5 degrees.
+
+   > Read data sets
+      > angle, depth[, tag]
+   > Process datasets into objects
+   > Plot objects
+      > depths
+      > resultant shape
+      > indices/depth labels?
+      > tag labels
+   > transform later objects to match earlier objects tag locations.
+   > Controls
+      > Open files/Enter values directly?
+      > Save
+   > Error margins?
+}
