@@ -31,11 +31,10 @@ Documentation {
 
 Tasks {
    > Protractor/pedastal
-      > Vernier scale
-         > Duplicate on opposite side of inner disc in case rangefinder
-           obscures one copy.
-         > Duplicate outer markings to every degree, otherwise the scale
-           will only work every 5 degrees.
+      > Font looks like it will have an inner and an outer.
+         > Possibly recolour?
+      > Confirm whether there will be issues aligning the design to the
+        bed.
 
    > Read data sets
       > angle, depth[, tag]
