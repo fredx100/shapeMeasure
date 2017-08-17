@@ -30,11 +30,7 @@ Documentation {
 }
 
 Tasks {
-   > Protractor/pedastal
-      > Font looks like it will have an inner and an outer.
-         > Possibly recolour?
-      > Confirm whether there will be issues aligning the design to the
-        bed.
+   v Protractor/pedastal
 
    > Read data sets
       > angle, depth[, tag]
