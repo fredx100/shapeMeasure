@@ -4,7 +4,7 @@ With a pedastal, protractor, and laser rangefinder a user can gather vectors (di
 
 ## Motivation ##
 
-I want to add shelves/bespoke CNC'd desks to irregular corners of various rooms. As such, I need to be able to, reletively accurately, measure 2D slices of a room.
+I want to add shelves/bespoke CNC'd desks to irregular corners of various rooms. As such, I need to be able to, relatively accurately, measure 2D slices of a room.
 
 ## Status ##
 
