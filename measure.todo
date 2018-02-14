@@ -1,48 +1,55 @@
 Brief {
-   > Measure 2D shapes using depth measuring.
-   > Output shape in CAD-compatible format
+    > Measure 2D shapes using depth measuring.
+    > Output shape in CAD-compatible format
 }
 
 Choices {
-   ? Output format
-      > svg
-      > dxf
-   ? Language
-      > Javascript
-         > Easy svg and display
-         > Portable
-      > Python
-         > Easy svg output but no easy display
-         > semi-portable
-      > C++
-         > familiar
-         > Easy svg output
-         > Not portable
-   > Controls
-      > How to allow revisions when many sets?
-         > clear
-         > remove set <drop down>
+    ? Output format
+        > svg
+        v dxf
+            > Simpler
+            > More precise
+    ? Language
+        > Javascript
+            > Easy svg and display
+            > Portable
+        > Python
+            > Easy svg output but no easy display
+            > semi-portable
+        > C++
+            > familiar
+            > Easy svg output
+            > Not portable
+        v Haskell
+            > New!
+    x Controls
+        x Don't have a UI.
+        > How to allow revisions when many sets?
+            > clear
+            > remove set <drop down>
 }
 
 Documentation {
-   > Pitfalls
-      > angles far from perpendicular will result in innacuracies.
+    > Pitfalls
+        > angles far from perpendicular will result in innacuracies.
 }
 
 Tasks {
-   v Protractor/pedastal
+    v Protractor/pedastal
 
-   > Read data sets
-      > angle, depth[, tag]
-   > Process datasets into objects
-   > Plot objects
-      > depths
-      > resultant shape
-      > indices/depth labels?
-      > tag labels
-   > transform later objects to match earlier objects tag locations.
-   > Controls
-      > Open files/Enter values directly?
-      > Save
-   > Error margins?
+    ! Read data sets
+        > angle, depth[, tag]
+    > Process datasets into objects
+    > Plot objects
+        > depths
+        > resultant shape
+        > indices/depth labels?
+        > tag labels
+    > transform later objects to match earlier objects tag locations.
+    > Controls
+        > Open files/Enter values directly?
+        > Save
+    > Error margins?
 }
+
+# vim: shiftwidth=4 tabstop=4
